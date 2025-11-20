@@ -1,0 +1,27 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [152] using StatReload
+INFO:     Started server process [154]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:51850 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:50942 - "GET /api/parallel?reference=John%203%3A16&translations=ESV,NIV HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50942 - "GET /api/parallel?reference=John%203%3A16&translations=ESV,NIV HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50938 - "GET /api/highlights?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50958 - "GET /api/bookmarks?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50938 - "GET /api/highlights?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50958 - "GET /api/bookmarks?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50962 - "GET /api/playlists?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50960 - "GET /api/notes?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50962 - "GET /api/notes?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50960 - "GET /api/playlists?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38244 - "GET /api/parallel?reference=John%203%3A16&translations=ESV,NIV HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38248 - "GET /api/highlights?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38264 - "GET /api/bookmarks?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38282 - "GET /api/playlists?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38268 - "GET /api/notes?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38244 - "GET /api/parallel?reference=John%203%3A16&translations=ESV,NIV HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38282 - "GET /api/notes?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38264 - "GET /api/bookmarks?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38248 - "GET /api/playlists?user_id=demo-user HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38268 - "GET /api/highlights?user_id=demo-user HTTP/1.1" 200 OK
